@@ -1,0 +1,27 @@
+<p>
+  post works!
+</p>
+
+
+<table>
+  <tr>
+    <th *ngFor="let hed of headers">
+      {{hed}}
+    </th>
+  </tr>
+ </table>
+
+ <table>
+  <tr>
+    <th *ngFor="let hed of headers">
+      {{col}}
+    </th>
+  </tr>
+  <tr *ngFor="let post of posts">
+   
+      {{post.title}}
+    
+  </tr>
+</table>
+
+
